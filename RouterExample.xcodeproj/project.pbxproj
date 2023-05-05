@@ -11,6 +11,9 @@
 		090FA27D2A04AD2900A238DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA27C2A04AD2900A238DC /* ContentView.swift */; };
 		090FA27F2A04AD2B00A238DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA27E2A04AD2B00A238DC /* Assets.xcassets */; };
 		090FA2822A04AD2B00A238DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090FA2812A04AD2B00A238DC /* Preview Assets.xcassets */; };
+		090FA28B2A04AD8400A238DC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA28A2A04AD8400A238DC /* Router.swift */; };
+		090FA28D2A04B05D00A238DC /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA28C2A04B05D00A238DC /* DetailsView.swift */; };
+		090FA28F2A04B09900A238DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090FA28E2A04B09900A238DC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		090FA27C2A04AD2900A238DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		090FA27E2A04AD2B00A238DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090FA2812A04AD2B00A238DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		090FA28A2A04AD8400A238DC /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		090FA28C2A04B05D00A238DC /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		090FA28E2A04B09900A238DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,9 @@
 		090FA2792A04AD2900A238DC /* RouterExample */ = {
 			isa = PBXGroup;
 			children = (
+				090FA2892A04AD4700A238DC /* Routers */,
+				090FA2882A04AD3D00A238DC /* Views */,
 				090FA27A2A04AD2900A238DC /* RouterExampleApp.swift */,
-				090FA27C2A04AD2900A238DC /* ContentView.swift */,
 				090FA27E2A04AD2B00A238DC /* Assets.xcassets */,
 				090FA2802A04AD2B00A238DC /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				090FA2812A04AD2B00A238DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		090FA2882A04AD3D00A238DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				090FA27C2A04AD2900A238DC /* ContentView.swift */,
+				090FA28C2A04B05D00A238DC /* DetailsView.swift */,
+				090FA28E2A04B09900A238DC /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		090FA2892A04AD4700A238DC /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				090FA28A2A04AD8400A238DC /* Router.swift */,
+			);
+			path = Routers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				090FA27D2A04AD2900A238DC /* ContentView.swift in Sources */,
+				090FA28D2A04B05D00A238DC /* DetailsView.swift in Sources */,
+				090FA28B2A04AD8400A238DC /* Router.swift in Sources */,
+				090FA28F2A04B09900A238DC /* HomeView.swift in Sources */,
 				090FA27B2A04AD2900A238DC /* RouterExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
